@@ -4,23 +4,24 @@
 
 #### if in red_black_tree program, this error occurs,then change language standard (-std) to ISO C++11 in the compiler settings.
 ```text
-##### Common Applications of Sorting:
+Common Applications of Sorting:
 
-Searching - Binary search enables you to test whether an item is in a dictionary in O (lg n) time, once 
-the keys are all sorted. Search pre-processing is perhaps the single most important application of sorting.
+  Searching - Binary search enables you to test whether an item is in a dictionary in O (lg n) time, once 
+  the keys are all sorted. Search pre-processing is perhaps the single most important application of sorting.
 
-Closest pair - Given a set of n numbers, how do you find the pair of numbers that have the smallest difference 
-between them? After the numbers are sorted, the closest pair of numbers will lie next to each other somewhere in 
-sorted order.
+  Closest pair - Given a set of n numbers, how do you find the pair of numbers that have the smallest difference 
+  between them? After the numbers are sorted, the closest pair of numbers will lie next to each other somewhere in 
+  sorted order.
 
-Element uniqueness - Are there any duplicates in a given a set of n items? The most efficient algorithm is to sort them 
-and then do a linear scan though them checking all adjacent pairs.
+  Element uniqueness - Are there any duplicates in a given a set of n items? The most efficient algorithm is to sort them 
+  and then do a linear scan though them checking all adjacent pairs.
 
-Frequency distribution - Given a set of n items, which element occurs the largest number of times in the set? If the items 
-are sorted, we can sweep from left to right and count them, since all identical items will be lumped together during sorting.
+  Frequency distribution - Given a set of n items, which element occurs the largest number of times in the set? If the items 
+  are sorted, we can sweep from left to right and count them, since all identical items will be lumped together during sorting.
 
-Selection - What is the kth largest item in the set? If the keys are placed in sorted order in an array, the kth largest can be 
-found in constant time by simply looking at the kth position of the array.
+  Selection - What is the kth largest item in the set? If the keys are placed in sorted order in an array, the kth largest can be 
+  found in constant time by simply looking at the kth position of the array.
+  
 time complexity:-
 Bubble sort :- worst   :-  О(N^2)
                average :-  Θ(N^2)
